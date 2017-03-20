@@ -2,6 +2,8 @@
 
 ## 下载基础配置
 
+[下载地址](https://github.com/zhouzhongyuan/yesapp/archive/master.zip)
+
 ## 下载src
 
 ```bash
