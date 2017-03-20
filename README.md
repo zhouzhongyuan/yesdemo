@@ -1,42 +1,34 @@
 # React Native 配置指南
 
-## 下载基础配置
+### 1.下载基础配置
 
-[下载地址](https://github.com/zhouzhongyuan/yesapp/archive/master.zip)
+[下载](https://github.com/zhouzhongyuan/yesapp/archive/master.zip)，
+解压，在yesapp目录下执行`npm install`。
 
-## 下载src
+### 2.下载`src`
 
+在yesapp目录下执行如下命令
 ```bash
 svn co http://1.1.2.17:8000/svn/yes/webapp/src
 ```
 
-## 配置yes-common
-
-进入`src/js/lib/yes-common`
-```
-npm install
-```
-
-```
-webpack
-```
-
-## 安装`src`所需package
+### 3.安装`src`所需package
 进入`src`
 ```
 npm install
 ```
 
-## 修改`src/.babelrc`
+### 4.修改`src/.babelrc`
 
 修改为
 ```
 {
   "presets": ["es2015"]
 }
-
 ```
-## 运行调试
+
+## 运行
+### 运行调试
 ```
 react-native run-android
 ```
@@ -44,7 +36,7 @@ react-native run-android
 ```
 react-native run-ios
 ```
-## 清空缓存
+### 清空缓存
 ```
 watchman watch-del-all &&  ./node_modules/react-native/packager/packager.sh start --reset-cache
 
