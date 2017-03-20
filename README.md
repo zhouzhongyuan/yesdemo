@@ -1,5 +1,7 @@
 # React Native 配置指南
 
+## 下载，配置 
+
 ### 1.下载基础配置
 
 [下载](https://github.com/zhouzhongyuan/yesapp/archive/master.zip)，
