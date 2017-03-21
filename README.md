@@ -4,26 +4,26 @@
 
 ### 1.下载基础配置
 
-[下载](https://github.com/zhouzhongyuan/yesapp/archive/master.zip)，
-解压为yesapp文件夹
+[yesdemo-master.zip下载](https://github.com/zhouzhongyuan/yesdemo/archive/master.zip)，
+解压为yesdemo文件夹
 
 ### 2.下载`src`
 
-在yesapp目录下执行如下命令
+在yesdemo目录下执行如下命令
 ```bash
 svn co http://1.1.2.17:8000/svn/yes/webapp/src
 ```
 
 
 ### 3.安装所需package
-在`yesapp`目录
+在`yesdemo`目录
 ```
 npm install
 ```
 如果安装失败，请看下方“注意”中的说明。
 预计用时10分钟。
 
-### 4.修改`yesapp/src/.babelrc`
+### 4.修改`yesdemo/src/.babelrc`
 
 修改为
 ```
