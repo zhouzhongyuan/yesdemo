@@ -20,6 +20,8 @@ svn co http://1.1.2.17:8000/svn/yes/webapp/src
 ```
 npm install
 ```
+如果安装失败，请看下方“注意”中的说明。
+预计用时10分钟。
 
 ### 4.修改`yesapp/src/.babelrc`
 
