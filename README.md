@@ -1,14 +1,11 @@
 # React Native 配置指南
 
-## 下载，配置 
+## 下载，配置 （必须严格按照1,2,3,4的顺序操作）
 
 ### 1.下载基础配置
 
 [下载](https://github.com/zhouzhongyuan/yesapp/archive/master.zip)，
-解压，在yesapp目录下执行
-```
-npm install
-```
+解压为yesapp文件夹
 
 ### 2.下载`src`
 
@@ -17,14 +14,20 @@ npm install
 svn co http://1.1.2.17:8000/svn/yes/webapp/src
 ```
 
-### 3.修改`src/.babelrc`
+
+### 3.安装所需package
+在`yesapp`目录
+```
+npm install
+```
+
+### 4.修改`yesapp/src/.babelrc`
 
 修改为
 ```
 {
   "presets": ["es2015"]
 }
-```
 
 ## 运行
 ### 运行调试
