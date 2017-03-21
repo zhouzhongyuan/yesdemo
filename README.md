@@ -28,6 +28,7 @@ npm install
 {
   "presets": ["es2015"]
 }
+```
 
 ## 运行
 ### 运行调试
