@@ -13,7 +13,18 @@
 		"react": "15.4.2",
 		"react-native": "0.41.2",
 		"react-native-rsa": "0.0.3",
-		"react-router-native": "^2.0.0-beta.0"
+		"react-router-native": "^2.0.0-beta.0",
+		"decimal.js": "^7.1.1",
+		"empty": "^0.10.1",
+		"eventemitter3": "^2.0.2",
+		"flux": "^3.1.0",
+		"immutable": "^3.7.6",
+		"jstz": "^1.0.9",
+		"pako": "^1.0.4",
+		"qs": "^6.4.0",
+		"react-native-material-ui": "^1.8.0",
+		"underscore": "^1.8.3",
+		"yes-common": "file:./src/js/lib/yes-common"
 	},
 	"devDependencies": {
 		"babel-jest": "18.0.0",

@@ -5,7 +5,10 @@
 ### 1.下载基础配置
 
 [下载](https://github.com/zhouzhongyuan/yesapp/archive/master.zip)，
-解压，在yesapp目录下执行`npm install`。
+解压，在yesapp目录下执行
+```
+npm install
+```
 
 ### 2.下载`src`
 
@@ -14,13 +17,7 @@
 svn co http://1.1.2.17:8000/svn/yes/webapp/src
 ```
 
-### 3.安装`src`所需package
-进入`src`
-```
-npm install
-```
-
-### 4.修改`src/.babelrc`
+### 3.修改`src/.babelrc`
 
 修改为
 ```
@@ -45,4 +42,6 @@ watchman watch-del-all &&  ./node_modules/react-native/packager/packager.sh star
 ```
 
 ## 注意
+- npm registry `http://dev.bokesoft.com:28080/`。使用方法（临时）`npm install --registry=http://dev.bokesoft.com:28080/`
+- 自行下载Android所需SDK。[参考地址](http://www.android-studio.org/)
 - 如果执行`npm install`超过5分钟没有完毕，请自行翻墙。
