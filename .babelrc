@@ -1,3 +1,23 @@
 {
-"presets": ["react-native-stage-0"]
+    "plugins":[[
+            "module-alias",
+            [
+                {
+                    "src": "./src/js/lib/yes",
+                    "expose": "yes"
+                },
+                {
+                    "src": "./src/js/lib/yes-native",
+                    "expose": "yes-native"
+                },
+                {
+                    "src": "./src/js/lib/yes-common",
+                    "expose": "yes-commom"
+                }
+            ]
+        ]
+    ],
+    "presets": [
+        "react-native-stage-0"
+    ]
 }
