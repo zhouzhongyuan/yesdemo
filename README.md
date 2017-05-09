@@ -13,6 +13,10 @@
 ```bash
 svn co http://1.1.2.17:8000/svn/yes/webapp/src
 ```
+or
+```bash
+git svn clone http://1.1.2.17:8000/svn/yes/webapp/src
+```
 
 
 ### 3.安装所需package
