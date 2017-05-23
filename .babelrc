@@ -11,6 +11,10 @@
                     "expose": "yes-native"
                 },
                 {
+                    "src": "./src/js/lib/yes-native",
+                    "expose": "yes-web"
+                },
+                {
                     "src": "./src/js/lib/yes-common",
                     "expose": "yes-commom"
                 }
