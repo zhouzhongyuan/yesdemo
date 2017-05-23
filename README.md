@@ -37,6 +37,13 @@ npm install
 ```
 
 ## 运行
+
+### icon
+
+```
+react-native link
+```
+
 ### 运行调试
 ```
 react-native run-android
