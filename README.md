@@ -29,11 +29,18 @@ npm install
 
 ### 4.修改`yesdemo/src/.babelrc`
 
-修改为
+#### 修改`yesdemo/src/.babelrc`
 ```
 {
   "presets": ["es2015"]
 }
+```
+
+#### 修改`yesdemo/src/config/webpack.config.js`
+```
+
+        alias: {
+            'react-native': path.resolve(__dirname, '../react-native-web/src'), //react-native 注释掉此行
 ```
 
 ## 运行
