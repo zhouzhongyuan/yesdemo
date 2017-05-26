@@ -1,1 +1,1 @@
-import * as RN from './src/entry.native';
+import './index.js';
