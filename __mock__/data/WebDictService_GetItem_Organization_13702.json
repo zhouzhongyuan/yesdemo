@@ -1,0 +1,29 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {
+                "Organization": {
+                    "itemRows": [
+                        {
+                            "ParentID": 10002,
+                            "NodeType": 0,
+                            "Enable": 1,
+                            "OID": 13702,
+                            "Code": "KUNSHANWAREHOUSE",
+                            "Name": "昆山仓库"
+                        }
+                    ],
+                    "tableMode": 0,
+                    "key": "Organization",
+                    "itemKey": "Organization"
+                }
+            },
+            "enable": 1,
+            "mainTableKey": "Organization",
+            "caption": "KUNSHANWAREHOUSE 昆山仓库",
+            "oid": 13702,
+            "itemKey": "Organization"
+        }
+    }
+}

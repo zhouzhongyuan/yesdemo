@@ -1,0 +1,47 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {
+                "Material": {
+                    "itemRows": [
+                        {
+                            "ParentID": 0,
+                            "MAT_BIG_CASE_HEIGHT": 10,
+                            "MAT_GROSS_WEIGHT": 8,
+                            "MAT_CUBAGE": 9,
+                            "OID": 63728,
+                            "MAT_CUBAGE_UNIT_ID": 301,
+                            "MAT_CATEGORY_ID": 11106,
+                            "Code": "00010005",
+                            "MAT_BIG_CASE_GROSS_WEIGHT": 100,
+                            "MAT_BIG_CASE_CUBAGE": 100,
+                            "MAT_LENGTH": 5,
+                            "Name": "2004进口长袖工衣/0P#",
+                            "MAT_BIG_CASE_NET_WEIGHT": 100,
+                            "MAT_WIDTH": 5,
+                            "MAT_HEIGHT": 7,
+                            "MAT_NET_WEIGHT": 7,
+                            "NodeType": 0,
+                            "Enable": 1,
+                            "MAT_BIG_CASE_UNIT_ID": 10012,
+                            "MAT_BIG_CASE_LENGTH": 10,
+                            "MAT_WEIGHT_UNIT_ID": 202,
+                            "MAT_UNIT_ID": 401,
+                            "MAT_LENGTH_UNIT_ID": 102,
+                            "MAT_BIG_CASE_WIDTH": 10
+                        }
+                    ],
+                    "tableMode": 0,
+                    "key": "Material",
+                    "itemKey": "Material"
+                }
+            },
+            "enable": 1,
+            "mainTableKey": "Material",
+            "caption": "00010005 2004进口长袖工衣/0P#",
+            "oid": 63728,
+            "itemKey": "Material"
+        }
+    }
+}

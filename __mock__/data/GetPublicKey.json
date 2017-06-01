@@ -1,0 +1,10 @@
+{
+    "router": "GetPublicKey",
+    "value": {
+        "data": {
+            "modulus": "00c573f29871bd6df92f6adc752c440e676ec0db01831515502466f350fba9fe879cbed9afb1dc6f3264d98eb3cd83801ac724e8ad418f3bb2a12a6c09048f22d1b23e9cb01268e176a843fc794ed582955963c0e901ea86b56f29db99664b66c4c2f23b7dc46264dba9d6794705797e3dad314bd3ed2b819df23ea0719e0a3069",
+            "exponent": "010001"
+        },
+        "type": "JSONObject"
+    }
+}

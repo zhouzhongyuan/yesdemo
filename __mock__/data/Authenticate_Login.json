@@ -1,0 +1,13 @@
+{
+    "router": "Authenticate",
+    "value": {
+        "data": {
+            "clientID": "f0550c74-3765-4cb3-85fc-ec88aef483d0",
+            "SessionParas": "",
+            "UserID": 21,
+            "Time": 1496302490254,
+            "Name": "系统管理员"
+        },
+        "type": "JSONObject"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {
+                "Organization": {
+                    "itemRows": [
+                        {
+                            "ParentID": 10002,
+                            "NodeType": 0,
+                            "Enable": 1,
+                            "OID": 10804,
+                            "Code": "PUTUOWAREHOUSE",
+                            "Name": "上海普陀仓库"
+                        }
+                    ],
+                    "tableMode": 0,
+                    "key": "Organization",
+                    "itemKey": "Organization"
+                }
+            },
+            "enable": 1,
+            "mainTableKey": "Organization",
+            "caption": "PUTUOWAREHOUSE 上海普陀仓库",
+            "oid": 10804,
+            "itemKey": "Organization"
+        }
+    }
+}

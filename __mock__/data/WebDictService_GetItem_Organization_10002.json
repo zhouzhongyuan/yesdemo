@@ -1,0 +1,30 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {
+                "Organization": {
+                    "itemRows": [
+                        {
+                            "ParentID": 0,
+                            "NodeType": 1,
+                            "Enable": 1,
+                            "OID": 10002,
+                            "Code": "ORGANIZATION",
+                            "Name": "总公司"
+                        }
+                    ],
+                    "tableMode": 0,
+                    "key": "Organization",
+                    "itemKey": "Organization"
+                }
+            },
+            "enable": 1,
+            "mainTableKey": "Organization",
+            "caption": "ORGANIZATION 总公司",
+            "oid": 10002,
+            "nodeType": 1,
+            "itemKey": "Organization"
+        }
+    }
+}

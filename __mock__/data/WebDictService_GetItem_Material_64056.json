@@ -1,0 +1,40 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {
+                "Material": {
+                    "itemRows": [
+                        {
+                            "ParentID": 0,
+                            "MAT_GROSS_WEIGHT": 30,
+                            "MAT_CUBAGE": 3,
+                            "OID": 64056,
+                            "MAT_CUBAGE_UNIT_ID": 301,
+                            "MAT_CATEGORY_ID": 10016,
+                            "Code": "00020183",
+                            "MAT_LENGTH": 3,
+                            "Name": "床架",
+                            "MAT_WIDTH": 2,
+                            "MAT_HEIGHT": 0.4,
+                            "MAT_NET_WEIGHT": 28,
+                            "NodeType": 0,
+                            "Enable": 1,
+                            "MAT_WEIGHT_UNIT_ID": 202,
+                            "MAT_UNIT_ID": 401,
+                            "MAT_LENGTH_UNIT_ID": 102
+                        }
+                    ],
+                    "tableMode": 0,
+                    "key": "Material",
+                    "itemKey": "Material"
+                }
+            },
+            "enable": 1,
+            "mainTableKey": "Material",
+            "caption": "00020183 床架",
+            "oid": 64056,
+            "itemKey": "Material"
+        }
+    }
+}

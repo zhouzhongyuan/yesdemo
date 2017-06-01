@@ -1,0 +1,29 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {
+                "Owner": {
+                    "itemRows": [
+                        {
+                            "ParentID": 0,
+                            "NodeType": 0,
+                            "Enable": 1,
+                            "OID": 10003,
+                            "Code": "IKEA",
+                            "Name": "宜家家居"
+                        }
+                    ],
+                    "tableMode": 0,
+                    "key": "Owner",
+                    "itemKey": "Owner"
+                }
+            },
+            "enable": 1,
+            "mainTableKey": "Owner",
+            "caption": "IKEA 宜家家居",
+            "oid": 10003,
+            "itemKey": "Owner"
+        }
+    }
+}

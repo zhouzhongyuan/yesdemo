@@ -1,0 +1,12 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {},
+            "mainTableKey": "",
+            "caption": "",
+            "nodeType": 1,
+            "itemKey": "Material"
+        }
+    }
+}

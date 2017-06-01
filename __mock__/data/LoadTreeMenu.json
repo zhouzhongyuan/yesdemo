@@ -1,0 +1,10 @@
+{
+    "router": "LoadTreeMenu",
+    "value": {
+        "success": false,
+        "error": {
+            "error_info": "用户未登录,请退出重新登录",
+            "error_code": -2146828286
+        }
+    }
+}

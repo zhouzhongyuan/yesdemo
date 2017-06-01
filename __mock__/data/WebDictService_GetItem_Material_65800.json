@@ -1,0 +1,40 @@
+{
+    "router": "WebDictService",
+    "value": {
+        "data": {
+            "itemTables": {
+                "Material": {
+                    "itemRows": [
+                        {
+                            "ParentID": 0,
+                            "MAT_GROSS_WEIGHT": 0,
+                            "MAT_CUBAGE": 0,
+                            "OID": 65800,
+                            "MAT_CUBAGE_UNIT_ID": 301,
+                            "MAT_CATEGORY_ID": 10016,
+                            "Code": "10005176",
+                            "MAT_LENGTH": 0,
+                            "Name": "雅诗兰黛红石榴系列化妆包-WNLG906000",
+                            "MAT_WIDTH": 0,
+                            "MAT_HEIGHT": 0,
+                            "MAT_NET_WEIGHT": 0,
+                            "NodeType": 0,
+                            "Enable": 1,
+                            "MAT_WEIGHT_UNIT_ID": 202,
+                            "MAT_UNIT_ID": 401,
+                            "MAT_LENGTH_UNIT_ID": 102
+                        }
+                    ],
+                    "tableMode": 0,
+                    "key": "Material",
+                    "itemKey": "Material"
+                }
+            },
+            "enable": 1,
+            "mainTableKey": "Material",
+            "caption": "10005176 雅诗兰黛红石榴系列化妆包-WNLG906000",
+            "oid": 65800,
+            "itemKey": "Material"
+        }
+    }
+}

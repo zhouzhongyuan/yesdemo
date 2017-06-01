@@ -85,3 +85,12 @@ rm -rf android/app/src/main/java/com/yesapp/ && rm -rf ios/yesapp*
 - npm registry `http://dev.bokesoft.com:28080/`。使用方法（临时）`npm install --registry=http://dev.bokesoft.com:28080/`
 - 自行下载Android所需SDK。[参考地址](http://www.android-studio.org/)
 - 如果执行`npm install`超过5分钟没有完毕，请自行翻墙。
+
+## 错误处理
+
+### 1. `Could not connect to development server`
+真机调试时，经常会遇到这种错误。
+解决办法：
+```
+adb reverse tcp:8081 tcp:8081
+```
