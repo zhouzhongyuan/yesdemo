@@ -1,6 +1,18 @@
-{
-    "router": "WebDictService",
-    "value": {
+import {Mock} from 'react-native-fetch-mock';
+
+function generateData(oid) {
+    if (String(oid) === '0') {
+        return {
+            "data": {
+                "itemTables": {},
+                "mainTableKey": "",
+                "caption": "",
+                "nodeType": 1,
+                "itemKey": "Material"
+            }
+        };
+    }
+    return Mock.mock({
         "data": {
             "itemTables": {
                 "Material": {
@@ -9,7 +21,7 @@
                             "ParentID": 0,
                             "MAT_GROSS_WEIGHT": 10,
                             "MAT_CUBAGE": 8,
-                            "OID": 63722,
+                            "OID": oid,
                             "MAT_CUBAGE_UNIT_ID": 301,
                             "MAT_CATEGORY_ID": 11106,
                             "Code": "00010009",
@@ -33,8 +45,11 @@
             "enable": 1,
             "mainTableKey": "Material",
             "caption": "00010009 2004进口长袖工衣/6#",
-            "oid": 63722,
+            "oid": oid,
             "itemKey": "Material"
         }
-    }
+    })
 }
+export default generateData;
+// var data = generateData('007');
+// console.log(JSON.stringify(data, null, 4));

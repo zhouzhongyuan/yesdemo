@@ -1,6 +1,18 @@
-{
-    "router": "WebDictService",
-    "value": {
+import {Mock} from 'react-native-fetch-mock';
+
+function generateData(oid) {
+    if (String(oid) === '0') {
+        return {
+            "data": {
+                "itemTables": {},
+                "mainTableKey": "",
+                "caption": "",
+                "nodeType": 1,
+                "itemKey": "Owner"
+            }
+        };
+    }
+    return Mock.mock({
         "data": {
             "itemTables": {
                 "Owner": {
@@ -9,7 +21,7 @@
                             "ParentID": 0,
                             "NodeType": 0,
                             "Enable": 1,
-                            "OID": 10003,
+                            "OID": oid,
                             "Code": "IKEA",
                             "Name": "宜家家居"
                         }
@@ -22,8 +34,11 @@
             "enable": 1,
             "mainTableKey": "Owner",
             "caption": "IKEA 宜家家居",
-            "oid": 10003,
+            "oid": oid,
             "itemKey": "Owner"
         }
-    }
+    })
 }
+export default generateData;
+// var data = generateData('007');
+// console.log(JSON.stringify(data, null, 4));

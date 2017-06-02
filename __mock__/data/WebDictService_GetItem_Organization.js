@@ -1,6 +1,7 @@
-{
-    "router": "WebDictService",
-    "value": {
+import {Mock} from 'react-native-fetch-mock';
+
+function generateData(oid) {
+    return Mock.mock({
         "data": {
             "itemTables": {
                 "Organization": {
@@ -9,7 +10,7 @@
                             "ParentID": 10002,
                             "NodeType": 0,
                             "Enable": 1,
-                            "OID": 13702,
+                            "OID": oid,
                             "Code": "KUNSHANWAREHOUSE",
                             "Name": "昆山仓库"
                         }
@@ -22,8 +23,11 @@
             "enable": 1,
             "mainTableKey": "Organization",
             "caption": "KUNSHANWAREHOUSE 昆山仓库",
-            "oid": 13702,
+            "oid": oid,
             "itemKey": "Organization"
         }
-    }
+    })
 }
+export default generateData;
+// var data = generateData('007');
+// console.log(JSON.stringify(data, null, 4));

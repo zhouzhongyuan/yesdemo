@@ -6,8 +6,3 @@ export { default as MobileLoadForm_LoadData_ReceiptView_minus1  } from "./data/M
 export { default as MobileLoadForm_LoadData_Receipt_Universal  } from "./data/MobileLoadForm_LoadData_Receipt_Universal.json" 
 export { default as MobileLoadForm_LoadForm_Receipt  } from "./data/MobileLoadForm_LoadForm_Receipt.json" 
 export { default as MobileLoadForm_LoadForm_ReceiptView  } from "./data/MobileLoadForm_LoadForm_ReceiptView.json" 
-export { default as WebDictService_GetItem_Material_0  } from "./data/WebDictService_GetItem_Material_0.json" 
-export { default as WebDictService_GetItem_Material_Universal  } from "./data/WebDictService_GetItem_Material_Universal.json" 
-export { default as WebDictService_GetItem_Organization_Universal  } from "./data/WebDictService_GetItem_Organization_Universal.json" 
-export { default as WebDictService_GetItem_Owner_0  } from "./data/WebDictService_GetItem_Owner_0.json" 
-export { default as WebDictService_GetItem_Owner_10003  } from "./data/WebDictService_GetItem_Owner_10003.json" 
