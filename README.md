@@ -7,11 +7,14 @@
 [yesdemo-master.zip下载](https://github.com/zhouzhongyuan/yesdemo/archive/master.zip)，
 解压为yesdemo文件夹
 
-or
+or(for download)
 ```
 git clone https://github.com/zhouzhongyuan/yesdemo.git
 ```
-
+or(for developers)
+```
+git clone git@github.com:zhouzhongyuan/yesdemo.git
+```
 ### 2.下载`src`
 
 在yesdemo目录下执行如下命令
