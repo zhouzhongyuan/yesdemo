@@ -7,6 +7,11 @@
 [yesdemo-master.zip下载](https://github.com/zhouzhongyuan/yesdemo/archive/master.zip)，
 解压为yesdemo文件夹
 
+or
+```
+git clone https://github.com/zhouzhongyuan/yesdemo.git
+```
+
 ### 2.下载`src`
 
 在yesdemo目录下执行如下命令
@@ -26,22 +31,6 @@ npm install
 ```
 如果安装失败，请看下方“注意”中的说明。
 预计用时10分钟。
-
-### 4.修改`yesdemo/src/.babelrc`
-
-#### 修改`yesdemo/src/.babelrc`
-```
-{
-  "presets": ["es2015"]
-}
-```
-
-#### 修改`yesdemo/src/config/webpack.config.js`
-```
-
-        alias: {
-            'react-native': path.resolve(__dirname, '../react-native-web/src'), //react-native 注释掉此行
-```
 
 ## 运行
 
@@ -93,4 +82,28 @@ rm -rf android/app/src/main/java/com/yesapp/ && rm -rf ios/yesapp*
 解决办法：
 ```
 adb reverse tcp:8081 tcp:8081
+```
+### 2. 真机安装
+SAMSUNG
+```
+adb -s c3c9b66d install android/app/build/outputs/apk/app-release.apk  
+```
+Redmi
+```angular2html
+adb -s 33cace327ce3 install android/app/build/outputs/apk/app-release.apk  
+```
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+```
+adb -s c3c9b66d install -r android/app/build/outputs/apk/app-release.apk  
+
+```
+
+## Android打包发布
+
+```
+cd android
+
+./gradlew assembleRelease
+
+./gradlew installRelease
 ```
