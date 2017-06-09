@@ -1,3 +1,4 @@
+// require('react-native-mock/mock');
 import React from 'react';
 import appOptions from './src/app/config';
 if (appOptions.debug) {
