@@ -78,6 +78,13 @@ rm -rf android/app/src/main/java/com/yesapp/ && rm -rf ios/yesapp*
 - 自行下载Android所需SDK。[参考地址](http://www.android-studio.org/)
 - 如果执行`npm install`超过5分钟没有完毕，请自行翻墙。
 
+## Debug
+
+```
+npm run devtools
+```
+
+
 ## 错误处理
 
 ### 1. `Could not connect to development server`
@@ -99,6 +106,11 @@ Failure [INSTALL_FAILED_ALREADY_EXISTS]
 ```
 adb -s c3c9b66d install -r android/app/build/outputs/apk/app-release.apk  
 
+```
+
+### 3.模拟器 
+```
+emulator -avd Nexus_6_API_25
 ```
 
 ## Android打包发布
