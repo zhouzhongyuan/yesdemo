@@ -1,0 +1,18 @@
+{
+  "globals": {
+    "__DEV__": true
+  },
+  "moduleDirectories": ["node_modules"],
+  "modulePathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "persistModuleRegistryBetweenSpecs": true,
+  "rootDir": "",
+  "testPathDirs": [
+    "<rootDir>/src"
+  ],
+  "unmockedModulePathPatterns": [
+    "<rootDir>/node_modules/"
+  ]
+}
+
