@@ -122,3 +122,8 @@ cd android
 
 ./gradlew installRelease
 ```
+
+
+## web -> native
+
+remove the package `react-native`(There is no this package maybe.),`react-navigation` in `src`project.
