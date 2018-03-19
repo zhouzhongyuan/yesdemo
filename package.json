@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "install": "react-native run-android",
+    "install:android": "react-native run-android",
     "tcpreverse": "adb reverse tcp:8081 tcp:8081",
     "emulator": "emulator -avd Nexus_6_API_25",
     "list-device": "adb devices",
@@ -40,6 +40,7 @@
     "react-native-tableview-simple": "^0.16.4",
     "react-native-vector-icons": "^4.0.1",
     "react-navigation": "^1.0.0-beta.9",
+    "react-style-proptype": "^3.0.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
